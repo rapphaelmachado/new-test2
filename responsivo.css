@@ -1,0 +1,141 @@
+@media screen and (max-width: 768px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+
+    .h1personalizado {
+        width: auto;
+    }
+
+    
+
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+		text-align: center;
+        height: 16rem;
+        width: auto;
+        font-size: 1.1rem;
+        padding: auto;
+	}
+
+    .cabecalhoPrincipal-nav-link {
+        border-bottom: solid 1px white;
+        margin: 1rem;
+        
+    }
+
+    /* inicio slider 1 */
+    
+    .slider {
+        width: 100%;
+        margin-bottom: -190px;
+    }
+    
+
+    .slide img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .manual-navigation {
+        width: 100%;
+        margin-top: -140px;
+    }
+
+    .navigation-auto {
+        
+        width: 100%;
+        margin-top: 260px;
+
+    }
+
+    /* fim slider 1 e inicio de slider 2 */
+
+    
+    .slider2  {
+        width: 100%;
+        margin-bottom: -90px;
+
+        
+    }
+
+
+    .slide2 img {
+        min-width: 320px;
+        max-width: 768px;
+        object-fit: contain;
+    }
+
+    .slider2 h1 {
+        margin: 0px;
+    }
+
+
+
+    /* fim slide 2 */
+
+
+
+
+	.conteudoPropostas {
+        flex-direction: column;
+		width: auto;
+        margin: auto;
+        
+	}
+
+	.div_conteudo_propostas .paragrafo {
+		margin: auto;
+        width: auto;
+	}
+
+    .div_conteudo_sobre .paragrafo {
+		margin: auto;
+        width: auto;
+        
+	}
+
+    .div_conteudo_propostas .imagem_2 {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .div_conteudo_contato .imagem_3 {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    
+
+    .div_conteudo_propostas .imagem_adesivo {
+        width: 80%;
+    }
+
+    .div_conteudo_sobre .imagem_adesivo {
+        width: 80%;
+    }
+
+    .div_conteudo_contato .conteudoContato{
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+    }
+
+    .div_conteudo_contato .imagem_contato {
+        width: 50%;
+        margin: 30px 0;
+    }
+
+    .section_footer .conteudo_footer {
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+    
+
+
+}

@@ -23,7 +23,7 @@ setInterval( function(){
 
 function nextImage2(){
     count1++;
-    if(count1>26){
+    if(count1>30){
        count1 = 11;
     }
 

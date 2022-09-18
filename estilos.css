@@ -504,6 +504,22 @@ span {
     margin-left: -375%;
 }
 
+#radio27:checked ~ .first{
+    margin-left: -400%;
+}
+
+#radio28:checked ~ .first{
+    margin-left: -425%;
+}
+
+#radio29:checked ~ .first{
+    margin-left: -450%;
+}
+
+#radio30:checked ~ .first{
+    margin-left: -475%;
+}
+
 
 
 .navigation-auto2 div:not(:last-child){
@@ -572,6 +588,22 @@ span {
 }
 
 #radio26:checked ~ .navigation-auto2 .auto-btn26{
+    background-color: black;
+}
+
+#radio27:checked ~ .navigation-auto2 .auto-btn27{
+    background-color: black;
+}
+
+#radio28:checked ~ .navigation-auto2 .auto-btn28{
+    background-color: black;
+}
+
+#radio29:checked ~ .navigation-auto2 .auto-btn29{
+    background-color: black;
+}
+
+#radio30:checked ~ .navigation-auto2 .auto-btn30{
     background-color: black;
 }
 
@@ -724,7 +756,6 @@ h2,
 h3,
 h4 {
   letter-spacing: var(--spacing);
-  text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
@@ -824,7 +855,7 @@ nav {
 .links a {
   color: white;
   font-size: 1rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: var(--spacing);
   display: block;
   padding: 0.5rem 1rem;
